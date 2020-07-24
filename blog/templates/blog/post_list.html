@@ -11,9 +11,11 @@
             <div>
                 <p>published: {{ post.published_date }}</p>
                 <h2><a href="">{{ post.title }}</a></h2>
-                <p>{{ post.text|linebreaksbr }}</p>  # linebreaksbr zamienia znaczniki nowej linii na akapity
+                <p>{{ post.text|linebreaksbr }}</p>
             </div>
         {% endfor %}
 
     </body>
 </html>
+
+# linebreaksbr zamienia znaczniki nowej linii na akapity
